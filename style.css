@@ -3,14 +3,22 @@
 }
 
 .keyboard {
-
+  
 }
 
 .keys {
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
 }
 
+
 .key {
-    
-    color: sandybrown
+    border-style: inset;
+    background:burlywood;
+}
+.game-menu{
+    display: flex;
 }
