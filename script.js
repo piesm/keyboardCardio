@@ -1,0 +1,1 @@
+//napisz funkcje która przyjmuje jako argumenty minimum i maksimum(do wygenerowania)
