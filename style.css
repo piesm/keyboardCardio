@@ -1,9 +1,10 @@
 .container {
-
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .keyboard {
-  
+    
 }
 
 .keys {
@@ -12,13 +13,63 @@
     flex-wrap: nowrap;
     justify-content: center;
     flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
 .key {
-    border-style: inset;
-    background:burlywood;
+    border-style: solid;
+    border-color: rgb(114, 74, 22);
+    background:rgb(156, 105, 39);
+    border-radius: 100px;
+    width: 70px ;
+    text-align: center;
+    font-size: 60px;
+    height: 70px;
 }
 .game-menu{
-    display: flex;
+    
+    
+}
+.key#space {
+    width: 600px ;
+    height: 50px;
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp3626251.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p{
+    color: rgba(255, 255, 255, 0.726);
+}
+h1{
+    color: rgba(255, 255, 255, 0.726);
+}
+.wrong-key-down{
+    background-color: rgb(24, 14, 2);
+    border-color: rgb(114, 74, 22);
+    transform: scale(1.1)
+}
+
+.correct-key-down{
+    border-style: solid;
+    background-color: rgb(51, 29, 2);
+    border-color: rgb(97, 59, 11);
+    transform: scale(0.8)
+}
+.fire-key{
+    border-style: solid;
+    border-color: rgb(51, 29, 2);
+    background-color: rgb(97, 59, 11);
+    transform: scale(1)
+}
+button{
+    
+    border-color: rgba(114, 74, 22, 0.582);
+    background:rgba(156, 105, 39, 0.342);
+    height: 20px ; 
+    width: 50px ;
+    color: rgba(255, 255, 255, 0.726);
 }
