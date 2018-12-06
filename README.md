@@ -1,3 +1,3 @@
 # keyboardCardio
 
-Simple js based keyboard breaking app.
+Simple JS based keyboard breaking app.
