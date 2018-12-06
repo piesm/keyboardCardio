@@ -1,1 +1,3 @@
-//napisz funkcje która przyjmuje jako argumenty minimum i maksimum(do wygenerowania)
+function losuj(min, max){
+	return Math.floor(Math.random() * (max-min+1) + min);
+}
